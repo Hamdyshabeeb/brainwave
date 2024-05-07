@@ -20,14 +20,14 @@ const Header = () => {
   }
 
   return (
-    <header className=" fixed w-full top-0 left-0 z-50 border-b border-n-6 bg-n-8/90">
+    <header className=" fixed w-full top-0 left-0 z-50 border-b backdrop-blur-sm border-n-6 bg-n-8/90">
       <div className="max-w-[90%] mx-auto flex justify-between items-center max-lg:py-4">
         <a href="#hero">
           <img src={brainwave} alt="brainwave" />
         </a>
 
         <nav
-          className={`absolute lg:static top-[5rem] left-0 max-lg:w-full  max-lg:h-[100vh] ${
+          className={`absolute lg:static lg:bg-transparent top-[5rem] left-0 max-lg:w-full  max-lg:h-[100vh] ${
             openNavigation ? "flex" : "hidden lg:flex"
           }   justify-center items-center bg-n-8`}
         >
