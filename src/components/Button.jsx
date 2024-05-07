@@ -23,7 +23,7 @@ function Button({
 
   const renderLink = () => (
     <a className={classes} href={href} onClick={onClick}>
-      {children}
+      <span className={spanClasses}>{children}</span>{" "}
       {svgBg ? ButtonSvg(white) : ""}
     </a>
   );
