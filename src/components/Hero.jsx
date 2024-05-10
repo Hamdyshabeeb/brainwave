@@ -13,7 +13,7 @@ const Hero = () => {
   const scrolParallexRef = useRef(null);
 
   return (
-    <Section crosses id="hero">
+    <Section crosses id="hero" customPaddings={"py-10 lg:py-16 xl:py-20"}>
       <section className="max-w-[90%] mx-auto text-center">
         <div className="max-w-[62rem] mx-auto mb-[4rem] md:mb-20 lg:mb-[6rem] z-2 relative">
           <h1 className="h1 mb-6">
