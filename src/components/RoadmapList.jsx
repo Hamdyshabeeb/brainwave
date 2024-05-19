@@ -34,7 +34,9 @@ function RoadmapList() {
                 height={16}
                 className="mr-2.5"
               />
-              <div className="tagline">{item.status}</div>
+              <div className="tagline">
+                {item.status === "done" ? "Done" : "In progress"}
+              </div>
             </div>
           </div>
 
